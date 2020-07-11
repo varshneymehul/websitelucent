@@ -74,7 +74,7 @@ body {
 }
 
 #top-title-index {
-  background: url(/assets/restaurant.jpg) no-repeat center center fixed;
+  background: url(../assets/restaurant.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,7 +86,7 @@ body {
 }
 
 #top-title-contact {
-  background: url(/assets/cover4.jpg) no-repeat center center fixed;
+  background: url(../assets/cover4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -518,7 +518,7 @@ nav {
 }
 
 #how-we-work-home {
-  background: linear-gradient(rgba(66, 66, 66, 0.2), rgba(255, 255, 255, 0.2)), url(/assets/robot.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(66, 66, 66, 0.2), rgba(255, 255, 255, 0.2)), url(../assets/robot.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -589,7 +589,7 @@ nav {
 #features {
   padding: 5% 10% 5%;
   text-align: center;
-  background: url(/assets/cover2.jpg) no-repeat center center fixed;
+  background: url(../assets/cover2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -602,7 +602,7 @@ nav {
 #workers {
   padding: 100px 10%;
   text-align: center;
-  background: url(/assets/about/people.jpg) no-repeat center center fixed;
+  background: url(../assets/about/people.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
