@@ -74,7 +74,7 @@ body {
 }
 
 #top-title-index {
-  background: url(../assets/restaurant.jpg) no-repeat center center fixed;
+  background: url(./assets/restaurant.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,7 +86,7 @@ body {
 }
 
 #top-title-contact {
-  background: url(../assets/cover4.jpg) no-repeat center center fixed;
+  background: url(./assets/cover4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
