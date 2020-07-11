@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border: 0px solid #fff;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+  animation-duration: 5s;
+  background-size: 200%;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+  border-radius: 0px;
+
+}
+
+@keyframes gradients {
+  0% {
+    background-position: 0 0;
+  }
+
+  25% {
+    background-position: 50% 0;
+  }
+
+  50% {
+    background-position: 90% 0;
+  }
+
+  60% {
+    background-position: 60%;
+  }
+
+  75% {
+    background-position: 40%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

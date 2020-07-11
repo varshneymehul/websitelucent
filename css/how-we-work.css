@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'BlockBeCnPro';
+  src: url('https://d2yb51knuewbts.cloudfront.net/fonts/blockbecondensed-webfont.woff');
+  src: url('https://d2yb51knuewbts.cloudfront.net/fonts/blockbecondensed-webfont.woff') format('woff'),
+    url('https://d2yb51knuewbts.cloudfront.net/fonts/blockbecondensed-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+i {
+background: linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+
+background: -moz-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+
+background: -webkit-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 0 10px;
+}
+
+.collapsible {
+  background: linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+
+  background: -moz-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+
+  background: -webkit-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2em;
+
+}
+
+.cart-item-title{
+  color: #eee !important;
+  font-family: Poppins;
+  font-style: italic;
+  font-size: 20px !important;
+}
+
+.purchase{
+  font-family: Libre Franklin;
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.cart-price{
+  font-family: Poppins;
+  color: #ff3867ff !important;
+  letter-spacing: 1px;
+}
+
+.product-text-pizza{
+  background: linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%) !important;
+
+  background: -moz-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%) !important;
+
+  background: -webkit-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, rgb(168, 3, 245) 100%) !important;
+  font-family: Poppins;
+  color: white;
+}
+.product-text-burger{
+  background: linear-gradient(45deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+  font-family: Poppins;
+  color: white;
+}
+.product-text-coffee{
+  background: linear-gradient(45deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+  font-family: Poppins;
+  color: white;
+}
+.product-text-drinks{
+  background: linear-gradient(45deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+  font-family: Poppins;
+  color: white;
+}
+.product-text-shakes{
+  background: linear-gradient(45deg, hsla(49, 100%, 48%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(49, 100%, 48%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(49, 100%, 48%, 1) 0%, hsla(226, 69%, 30%, 1) 100%);
+  font-family: Poppins;
+  color: white;
+}
+.product-text-icecream{
+  background: linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%) !important;
+
+  background: -moz-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%) !important;
+
+  background: -webkit-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%) !important;
+  font-family: Poppins;
+  color: white;
+}
+
+.shop-item-price{
+  text-align: right;
+  font-size: 30px;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+
+.product-titles{
+  font-family: BlockBeCnPro;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #ffc847ff !important;
+  font-family: Poppins;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-total-title{
+ color: #00fff7ff !important;
+ font-family: Noto Sans JP;
+}
+
+.cart-price {
+  
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-total-price {
+  font-family: Libre Franklin !important;
+ color: #4aff47ff !important;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+.row{
+  margin:0 !important;
+  padding: 0 !important;
+}
+
+.shop-item-button{
+  position: relative !;
+}
+
+.content{
+  padding: 0 5vw;
+}
+
+.card{
+  margin: 20px 0;
+  
+}
+
+.cart-details{
+  padding: 20px 3%;
+}
